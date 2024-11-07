@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mycm
+  namespace: myapp
+data:
+  somedata: somevalue
